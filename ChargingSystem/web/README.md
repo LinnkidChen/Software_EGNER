@@ -19,7 +19,9 @@
     * public
  
  > admin    管理员主页面及功能页面
+ 
  > customer 顾客主页面及功能页面
+ 
  > public   登陆页面及注册页面
 
 ## 进度

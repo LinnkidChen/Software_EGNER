@@ -1,0 +1,97 @@
+body {
+    background-color: rgba(244, 245, 243, 0.6);
+}
+
+#loginBlock {
+    width: 500px;
+    margin: 205px auto;
+    background-color: rgba(255, 255, 255, 0.8);
+
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+
+    text-align: center;
+    vertical-align: middle;
+}
+
+.textBox {
+    width: 300px;
+    outline: none;
+    margin-top: 45px;
+    border: 2px solid rgba(36, 36, 36, 0.4);
+    background-color: rgba(244, 245, 243, 0.6);
+
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+
+    color: rgba(16, 16, 16, 0.8);
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 28px;
+    text-indent: 20px;
+    font-family: monospace;
+    vertical-align: middle;
+}
+
+.textBox::placeholder {
+    color: rgba(128, 128, 128, 0.8);
+    font-size: 18px;
+    text-indent: 20px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+#buttonBlock {
+    text-align: left;
+    text-indent: 162px;
+}
+
+#signupButton {
+    height: 50px;
+    border: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: transparent;
+
+    color: rgba(128, 128, 128, 0.8);
+    font-size: 20px;
+    line-height: 50px;
+    font-weight: bold;
+    font-family: monospace;
+    vertical-align: middle;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+#border {
+    height: 50px;
+    border: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    color: rgba(16, 16, 16, 0.8);
+    font-size: 25px;
+    line-height: 50px;
+    font-weight: bold;
+    font-family: monospace;
+    vertical-align: middle;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+#signinButton {
+    width: 50px;
+    height: 50px;
+    border: none;
+    margin-top: 40px;
+    margin-left: 15px;
+    margin-bottom: 40px;
+    background-color: #2e2e2e;
+
+    border-radius: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+
+    color: white;
+    font-size: 42px;
+    line-height: 50px;
+    font-weight: bold;
+    vertical-align: middle;
+}

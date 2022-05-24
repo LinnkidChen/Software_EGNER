@@ -1,0 +1,108 @@
+body {
+    background-color: rgba(244, 245, 243, 0.6);
+}
+
+#loginBlock {
+    width: 500px;
+    margin: 185px auto;
+    background-color: rgba(255, 255, 255, 0.8);
+
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+
+    text-align: center;
+    vertical-align: middle;
+}
+
+.textBox {
+    width: 300px;
+    outline: none;
+    margin-top: 30px;
+    border: 2px solid rgba(36, 36, 36, 0.4);
+    background-color: rgba(244, 245, 243, 0.6);
+
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+
+    color: rgba(16, 16, 16, 0.8);
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 28px;
+    text-indent: 20px;
+    font-family: monospace;
+    vertical-align: middle;
+}
+
+.textBox:first-child {
+    margin-top: 45px;
+}
+
+.textBox::placeholder {
+    color: rgba(128, 128, 128, 0.8);
+    font-size: 18px;
+    text-indent: 20px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+#buttonBlock {
+    text-align: left;
+    text-indent: 60px;
+}
+
+#border {
+    height: 50px;
+    border: none;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+
+    color: rgba(16, 16, 16, 0.8);
+    font-size: 25px;
+    line-height: 50px;
+    font-weight: bold;
+    font-family: monospace;
+    vertical-align: middle;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+#signup_admin {
+    height: 35px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 2px solid rgba(36, 36, 36, 0.4);
+    background-color: rgba(244, 245, 243, 0.6);
+
+    border-radius: 35px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+
+    color: #2e2e2e;
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: bold;
+    font-family: monospace;
+    vertical-align: middle;
+}
+
+#signup_admin::before,
+#signup_admin::after {
+    content: "\00A0";
+}
+
+#signup_customer {
+    height: 35px;
+    border: none;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    background-color: #2e2e2e;
+
+    border-radius: 35px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+
+    color: white;
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: bold;
+    vertical-align: middle;
+}

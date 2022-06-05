@@ -9,21 +9,23 @@
 
     <link rel="stylesheet" href="../../css/reset.css">
     <link rel="stylesheet" href="../../css/public/signup.css">
-
 </head>
 
 <body>
-    <form action="" id="loginBlock">
-        <input type="text" name="account" placeholder="Account:" class="textBox">
-        <br>
-        <input type="password" name="password" placeholder="Password:" class="textBox">
-        <br>
-        <input type="password" name="passwordConfirm" placeholder="Password Confirm:" class="textBox">
-        <br>
-        <button id="signup_admin" type="button">Admin</button>
-        <span id="border">|</span>
-        <button id="signup_customer" type="button">Customer</button>
+<form action="" id="loginBlock">
+    <input v-model="username" type="text" name="account" placeholder="Account:" class="textBox">
+    <br>
+    <input v-model="password" type="password" name="password" placeholder="Password:" class="textBox">
+    <br>
+    <input v-model="confirm" type="password" name="passwordConfirm" placeholder="Password Confirm:" class="textBox">
+    <br>
+    <button v-on:click="registerAdmin" id="signup_admin" type="button">Admin</button>
+    <span id="border">|</span>
+    <button v-on:click="registerCustomer" id="signup_customer" type="button">Customer</button>
+</form>
 
+<script src="../../js/vue.js"></script>
+<script src="../../js/signup.js"></script>
 </body>
 
 </html>

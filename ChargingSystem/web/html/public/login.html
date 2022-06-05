@@ -9,20 +9,25 @@
 
     <link rel="stylesheet" href="../../css/reset.css">
     <link rel="stylesheet" href="../../css/public/login.css">
-
 </head>
 
 <body>
-    <form action="" id="loginBlock">
-        <input type="text" name="account" placeholder="Account:" class="textBox">
-        <br>
-        <input type="password" name="password" placeholder="Password:" class="textBox">
-        <div id="buttonBlock">
-            <button id="signupButton" type="button">SignUp</button>
-            <span id="border">|</span>
-            <button id="signinButton" type="button">&gt;</button>
-        </div>
-    </form>
+<form action="" id="loginBlock">
+    <input v-model="username" type="text" name="account" placeholder="Account:" class="textBox">
+    <br>
+    <input v-model="password" type="password" name="password" placeholder="Password:" class="textBox">
+    <div id="buttonBlock">
+        <button v-on:click="signUp" id="signupButton" type="button">SignUp</button>
+        <span id="border">|</span>
+        <button v-on:click="signIn" id="signinButton" type="button">&gt;</button>
+    </div>
+</form>
+
+<script src="../../js/vue.js"></script>
+<script src="../../js/login.js"></script>
+<script>
+
+</script>
 </body>
 
 </html>

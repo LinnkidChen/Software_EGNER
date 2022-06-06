@@ -1,5 +1,5 @@
 let registerInfo = new Vue({
-    el: '#loginBlock',
+    el: '#signupBlock',
     data: {
         username: '',
         password: '',

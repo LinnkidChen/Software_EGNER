@@ -16,6 +16,7 @@
         * ~~customer~~
         * ~~public~~
     * javascript
+        * pile
         * admin
         * customer
         * public

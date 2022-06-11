@@ -5,20 +5,20 @@
 ## 目录及进度
 
 * web
- * css
-  * pile
-  * admin
-  * ~~customer~~
-  * ~~public~~
- * html
-  * pile
-  * admin
-  * ~~customer~~
-  * ~~public~~
- * javascript
-  * admin
-  * customer
-  * public
+    * css
+        * pile
+        * admin
+        * ~~customer~~
+        * ~~public~~
+    * html
+        * pile
+        * admin
+        * ~~customer~~
+        * ~~public~~
+    * javascript
+        * admin
+        * customer
+        * public
 
  > admin    管理员主页面及功能页面
  

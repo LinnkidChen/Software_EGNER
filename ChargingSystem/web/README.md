@@ -21,11 +21,13 @@
         * customer
         * public
 
- > admin    管理员主页面及功能页面
+> pile    充电桩主页面
+
+> admin    管理员主页面及功能页面
  
- > customer 顾客主页面及功能页面
+> customer 顾客主页面及功能页面
  
- > public   登陆页面及注册页面
+> public   登陆页面及注册页面
  
 ## 说明
 

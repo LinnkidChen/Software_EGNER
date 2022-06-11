@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Page</title>
+
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/customer/order.css">
+
+</head>
+
+<body>
+    <main class="clearfix">
+        <ul id="customer_order_nav" class="clearfix">
+            <li>
+                <a href="" class="funButton">order</a>
+            </li>
+            <li>
+                <a href="" class="funButton">check</a>
+            </li>
+            <li>
+                <a href="" class="funButton">quit</a>
+            </li>
+        </ul>
+
+        <div id="customer_order_orderBlock" class="clearfix">
+            <form action="">
+                <select name="chargingType">
+                    <!--当用户处于排队/充电状态时，在placeholder中填充用户充电类型-->
+                    <option value="chargingType_slowCharge" selected>Slow Charge</option>
+                    <option value="chargingType_fastCharge">Fast Charge</option>
+                </select>
+
+                <span id="customer_order_border">-</span>
+
+                <!--当用户处于排队/充电状态时，在placeholder中填充用户电量-->
+                <input type="text" placeholder="Quantity">
+                <span id="customer_order_unit_w">KWh</span>
+
+                <br>
+
+                <button id="customer_order_confirmButton" type="button">&gt;</button>
+                <button id="customer_order_cancelButton" type="button">&#215;</button>
+            </form>
+        </div>
+
+        <aside class="clearfix">
+            <div id="customer_order_userImage" class="clearfix">?</div>
+
+            <!--在此填充用户ID-->
+            <span id="customer_order_userID"></span>
+
+            <ul>
+                <!--在此显示其中一个用户状态-->
+                <li id="customer_order_userState_none" class="userState userState">none</li>
+                <li id="customer_order_userState_queuing" class="userState userState">queuing</li>
+                <li id="customer_order_userState_slowCharging" class="userState userState">slow charging</li>
+                <li id="customer_order_userState_fastCharging" class="userState userState">fast charging</li>
+            </ul>
+
+            <ul>
+                <!--当用户处于排队/充电状态时，在input中填充剩余车辆（分钟）-->
+                <li id="customer_order_queuingCars" class="chargeInfo clearfix">
+                    <input type="text" disabled>
+                    <span>cars</span>
+                </li>
+
+                <!--当用户处于排队/充电状态时，在input中填充剩余时间（分钟）-->
+                <li id="customer_order_queuingTime" class="chargeInfo clearfix">
+                    <input type="text" disabled>
+                    <span>mins</span>
+                </li>
+
+                <!--当用户处于排队/充电状态时，在input中填充剩充电桩ID-->
+                <li id="customer_order_queuingPile" class="chargeInfo clearfix">
+                    <input type="text" disabled>
+                    <span>pile</span>
+                </li>
+            </ul>
+
+            <button id="customer_order_refreshButton" type="button">&#8635;</button>
+        </aside>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,334 @@
+.clearfix::before,
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+body {
+    background-color: rgba(244, 245, 243, 0.6);
+}
+
+
+main {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#customer_check_nav {
+    width: 900px;
+    margin: 25px auto;
+    padding: 0px 50px;
+    background-color: #2e2e2e;
+
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+
+    text-align: center;
+    vertical-align: middle;
+}
+
+#customer_check_nav>li {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.funButton {
+    width: 33%;
+    height: 45px;
+    float: left;
+
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 45px;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+#customer_check_checkBlock {
+    width: 750px;
+    margin-right: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(244, 245, 243, 0.6);
+
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+
+    float: left;
+}
+
+.checkList {
+    width: 700px;
+    margin: 25px auto;
+
+    background-color: rgba(255, 255, 255, 0.8);
+
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.checkList>p>span {
+    height: 24px;
+
+    color: rgba(128, 128, 128, 0.8);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    font-family: monospace;
+    vertical-align: middle;
+}
+
+.ID {
+    width: 700px;
+    height: 28px !important;
+    overflow: hidden;
+    padding-left: 20px;
+
+    color: black !important;
+    font-size: 18px !important;
+    line-height: 28px !important;
+}
+
+.ID::before {
+    content: "#";
+
+    color: rgba(128, 128, 128, 0.8);
+}
+
+.type_slowCharge::before {
+    content: "\25CF";
+    color: yellowgreen;
+}
+
+.type_fastCharge::before {
+    content: "\25CF";
+    color: green;
+}
+
+.billInfo {
+    width: 190px;
+    height: 75px;
+    overflow: hidden;
+    padding-left: 30px;
+
+    float: left;
+}
+
+.pileID::before {
+    content: "Pile: ";
+}
+
+.quantity::before {
+    content: "Quantity: ";
+}
+
+.quantity::after {
+    content: "KWh";
+}
+
+.chargeTime::before {
+    content: "ChargeTime: ";
+}
+
+.chargeTime::after {
+    content: "h";
+}
+
+.billCost {
+    width: 150px;
+    height: 75px;
+    overflow: hidden;
+    padding-left: 25px;
+
+    float: left;
+}
+
+.chargeCost::before {
+    content: "Charge: ";
+}
+
+.chargeCost::after {
+    content: "$";
+}
+
+.serveCost::before {
+    content: "Serve: ";
+}
+
+.serveCost::after {
+    content: "$";
+}
+
+.totalCost::before {
+    content: "Total: ";
+}
+
+.totalCost::after {
+    content: "$";
+}
+
+.billTime {
+    width: 260px;
+    height: 75px;
+    overflow: hidden;
+    padding-left: 25px;
+
+    float: left;
+}
+
+.orderTime::before {
+    content: "Order: ";
+}
+
+.beginTime::before {
+    content: "Begin: ";
+}
+
+.finishTime::before {
+    content: "Finish: ";
+}
+
+aside {
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.8);
+
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+
+    text-align: center;
+    vertical-align: middle;
+
+    float: left;
+}
+
+#customer_check_userImage {
+    width: 80px;
+    height: 80px;
+    margin: 20px auto 10px auto;
+    background-color: rgba(144, 144, 144, 0.6);
+
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+
+    color: white;
+    font-size: 50px;
+    line-height: 80px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#customer_check_userID {
+    height: 30px;
+
+    color: rgba(128, 128, 128, 0.8);
+    font-size: 18px;
+    overflow: hidden;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    vertical-align: middle;
+}
+
+#customer_check_userID {
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+#customer_check_userID::before {
+    content: "#";
+}
+
+aside>ul {
+    margin-top: 15px;
+}
+
+.userState {
+    height: 28px;
+
+    color: rgba(128, 128, 128, 0.8);
+    font-size: 18px;
+    overflow: hidden;
+    line-height: 28px;
+    font-weight: bold;
+    font-family: monospace;
+    vertical-align: middle;
+}
+
+.userState::before {
+    content: "\25CF";
+}
+
+#customer_check_userState_queuing::before {
+    color: yellow;
+}
+
+#customer_check_userState_slowCharging::before {
+    color: yellowgreen;
+}
+
+#customer_check_userState_fastCharging::before {
+    color: green;
+}
+
+.chargeInfo>input {
+    width: 75px;
+    outline: none;
+    margin-left: 35px;
+    border: 2px solid rgba(36, 36, 36, 0.4);
+    background-color: rgba(244, 245, 243, 0.6);
+
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+
+    color: rgba(128, 128, 128, 0.8);
+    font-size: 17px;
+    overflow: hidden;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: center;
+    font-family: monospace;
+    vertical-align: middle;
+
+    float: left;
+}
+
+.chargeInfo>span {
+    width: 50px;
+
+    color: rgba(128, 128, 128, 0.8);
+    font-size: 18px;
+    overflow: hidden;
+    text-align: left;
+    line-height: 30px;
+    text-indent: 10px;
+    font-weight: bold;
+    font-family: monospace;
+    vertical-align: middle;
+
+    float: left;
+}
+
+#customer_order_queuingTime {
+    margin-top: 5px;
+}
+
+#customer_check_queuingPile {
+    margin-top: 5px;
+}
+
+#customer_check_refreshButton {
+    width: 50px;
+    height: 50px;
+    border: none;
+    margin: 20px 0px;
+    background-color: #2e2e2e;
+
+    border-radius: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+
+    color: white;
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: bold;
+    vertical-align: middle;
+}

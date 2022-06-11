@@ -1,0 +1,328 @@
+.clearfix::before,
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+body {
+    background-color: rgba(244, 245, 243, 0.6);
+}
+
+
+main {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#customer_order_nav {
+    width: 900px;
+    margin: 25px auto;
+    padding: 0px 50px;
+    background-color: #2e2e2e;
+
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+
+    text-align: center;
+    vertical-align: middle;
+}
+
+#customer_order_nav>li {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.funButton {
+    width: 33%;
+    height: 45px;
+    float: left;
+
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 45px;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+#customer_order_orderBlock {
+    width: 750px;
+    margin-right: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+
+    float: left;
+}
+
+#customer_order_orderBlock>form {
+    margin: 105px auto;
+
+    text-align: center;
+    vertical-align: middle;
+}
+
+#customer_order_orderBlock>form>select {
+    width: 160px;
+    height: 33px;
+    outline: none;
+    border: 2px solid rgba(36, 36, 36, 0.4);
+    background-color: rgba(244, 245, 243, 0.6);
+
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+
+    color: rgba(128, 128, 128, 0.8);
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 33px;
+    text-indent: 10px;
+    font-family: monospace;
+    vertical-align: middle;
+}
+
+#customer_order_orderBlock>form>select>option {
+    color: rgba(128, 128, 128, 0.8);
+    font-size: 18px;
+    font-weight: bold;
+    font-family: monospace;
+    vertical-align: middle;
+}
+
+#customer_order_border {
+    margin-left: 20px;
+
+    color: rgba(128, 128, 128, 0.8);
+    font-size: 20px;
+    overflow: hidden;
+    text-align: left;
+    line-height: 28px;
+    font-weight: bold;
+    font-family: monospace;
+    vertical-align: middle;
+}
+
+#customer_order_orderBlock>form>input {
+    width: 120px;
+    height: 28px;
+    outline: none;
+    margin-left: 20px;
+    border: 2px solid rgba(36, 36, 36, 0.4);
+    background-color: rgba(244, 245, 243, 0.6);
+
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+
+    color: rgba(16, 16, 16, 0.8);
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 28px;
+    text-indent: 10px;
+    font-family: monospace;
+    vertical-align: middle;
+}
+
+#customer_order_orderBlock>form>input::placeholder {
+    color: rgba(128, 128, 128, 0.8);
+    font-size: 18px;
+    text-indent: 10px;
+    font-weight: bold;
+    font-family: monospace;
+    vertical-align: middle;
+}
+
+#customer_order_unit_w {
+    width: 50px;
+    margin-left: 10px;
+
+    color: rgba(128, 128, 128, 0.8);
+    font-size: 20px;
+    overflow: hidden;
+    text-align: left;
+    line-height: 28px;
+    font-weight: bold;
+    font-family: monospace;
+    vertical-align: bottom;
+}
+
+#customer_order_confirmButton {
+    width: 50px;
+    height: 50px;
+    border: none;
+    margin-top: 50px;
+    background-color: #2e2e2e;
+
+    border-radius: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+
+    color: white;
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+#customer_order_cancelButton {
+    width: 50px;
+    height: 50px;
+    border: none;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 230px;
+    background-color: #2e2e2e;
+
+    border-radius: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+
+    color: white;
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+aside {
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.8);
+
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+
+    text-align: center;
+    vertical-align: middle;
+
+    float: left;
+}
+
+#customer_order_userImage {
+    width: 80px;
+    height: 80px;
+    margin: 20px auto 10px auto;
+    background-color: rgba(144, 144, 144, 0.6);
+
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+
+    color: white;
+    font-size: 50px;
+    line-height: 80px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#customer_order_userID {
+    height: 30px;
+
+    color: rgba(128, 128, 128, 0.8);
+    font-size: 18px;
+    overflow: hidden;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    vertical-align: middle;
+}
+
+#customer_order_userID {
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+#customer_order_userID::before {
+    content: "#";
+}
+
+aside>ul {
+    margin-top: 15px;
+}
+
+.userState {
+    height: 28px;
+
+    color: rgba(128, 128, 128, 0.8);
+    font-size: 18px;
+    overflow: hidden;
+    line-height: 28px;
+    font-weight: bold;
+    font-family: monospace;
+    vertical-align: middle;
+}
+
+.userState::before {
+    content: "\25CF";
+}
+
+#customer_order_userState_queuing::before {
+    color: yellow;
+}
+
+#customer_order_userState_slowCharging::before {
+    color: yellowgreen;
+}
+
+#customer_order_userState_fastCharging::before {
+    color: green;
+}
+
+.chargeInfo>input {
+    width: 75px;
+    outline: none;
+    margin-left: 35px;
+    border: 2px solid rgba(36, 36, 36, 0.4);
+    background-color: rgba(244, 245, 243, 0.6);
+
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+
+    color: rgba(128, 128, 128, 0.8);
+    font-size: 17px;
+    overflow: hidden;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: center;
+    font-family: monospace;
+    vertical-align: middle;
+
+    float: left;
+}
+
+.chargeInfo>span {
+    width: 50px;
+
+    color: rgba(128, 128, 128, 0.8);
+    font-size: 18px;
+    overflow: hidden;
+    text-align: left;
+    line-height: 30px;
+    text-indent: 10px;
+    font-weight: bold;
+    font-family: monospace;
+    vertical-align: middle;
+
+    float: left;
+}
+
+#customer_order_queuingTime {
+    margin-top: 5px;
+}
+
+#customer_order_queuingPile {
+    margin-top: 5px;
+}
+
+#customer_order_refreshButton {
+    width: 50px;
+    height: 50px;
+    border: none;
+    margin: 20px 0px;
+    background-color: #2e2e2e;
+
+    border-radius: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+
+    color: white;
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: bold;
+    vertical-align: middle;
+}

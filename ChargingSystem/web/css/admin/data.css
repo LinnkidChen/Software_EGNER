@@ -1,0 +1,273 @@
+.clearfix::before,
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+body {
+    background-color: rgba(244, 245, 243, 0.6);
+}
+
+
+main {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#admin_data_nav {
+    width: 900px;
+    margin: 25px auto;
+    padding: 0px 50px;
+    background-color: #2e2e2e;
+
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+
+    text-align: center;
+    vertical-align: middle;
+}
+
+#admin_data_nav>li {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.funButton {
+    width: 33%;
+    height: 45px;
+    float: left;
+
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 45px;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+#admin_data_dataBlock {
+    width: 750px;
+    margin-right: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(244, 245, 243, 0.6);
+
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+
+    float: left;
+}
+
+#admin_data_dataType {
+    width: 750px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+#admin_data_dataType>select {
+    width: 100px;
+    height: 33px;
+    outline: none;
+    border: 2px solid rgba(36, 36, 36, 0.4);
+    background-color: rgba(255, 255, 255, 0.8);
+
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+
+    color: rgba(128, 128, 128, 0.8);
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 33px;
+    text-indent: 10px;
+    font-family: monospace;
+    vertical-align: middle;
+}
+
+#admin_data_dataType>select>option {
+    color: rgba(128, 128, 128, 0.8);
+    font-size: 18px;
+    font-weight: bold;
+    font-family: monospace;
+    vertical-align: middle;
+}
+
+.pileList {
+    width: 700px;
+    margin: 25px auto;
+
+    background-color: rgba(255, 255, 255, 0.8);
+
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.pileList>p>span {
+    height: 24px;
+
+    color: rgba(128, 128, 128, 0.8);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    font-family: monospace;
+    vertical-align: middle;
+}
+
+.pileID>span:nth-child(1) {
+    width: 700px;
+    height: 28px !important;
+    overflow: hidden;
+    padding-left: 20px;
+
+    color: black !important;
+    font-size: 18px !important;
+    line-height: 28px !important;
+}
+
+.pileID>span:nth-child(1)::before {
+    content: "#";
+
+    color: rgba(128, 128, 128, 0.8);
+}
+
+.state_on::before {
+    content: "\25CF";
+    color: green;
+}
+
+.state_close::before {
+    content: "\25CF";
+    color: grey;
+}
+
+.pileInfo {
+    width: 190px;
+    height: 75px;
+    overflow: hidden;
+    padding-left: 30px;
+
+    float: left;
+}
+
+.frequency::before {
+    content: "Frequency: ";
+}
+
+.quantity::before {
+    content: "Quantity: ";
+}
+
+.quantity::after {
+    content: "KWh";
+}
+
+.chargeTime::before {
+    content: "ChargeTime: ";
+}
+
+.chargeTime::after {
+    content: "h";
+}
+
+.pileCost {
+    width: 150px;
+    height: 75px;
+    overflow: hidden;
+    padding-left: 25px;
+
+    float: left;
+}
+
+.totalCost::before {
+    content: "Total: ";
+}
+
+.totalCost::after {
+    content: "$";
+}
+
+.serveCost::before {
+    content: "Serve: ";
+}
+
+.serveCost::after {
+    content: "$";
+}
+
+.chargeCost::before {
+    content: "Charge: ";
+}
+
+.chargeCost::after {
+    content: "$";
+}
+
+#admin_data_statistics {
+    width: 700px;
+    margin: 25px auto;
+
+    background-color: rgba(144, 144, 144, 0.6);
+
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+#admin_data_statistics>p>span {
+    height: 24px;
+
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    font-family: monospace;
+    vertical-align: middle;
+}
+
+aside {
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-bottom: 100px;
+
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+
+    text-align: center;
+    vertical-align: middle;
+
+    float: left;
+}
+
+#admin_data_userImage {
+    width: 80px;
+    height: 80px;
+    margin: 20px auto 10px auto;
+    background-color: rgba(144, 144, 144, 0.6);
+
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+
+    color: white;
+    font-size: 50px;
+    line-height: 80px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#admin_data_userID {
+    height: 30px;
+
+    color: rgba(128, 128, 128, 0.8);
+    font-size: 18px;
+    overflow: hidden;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    vertical-align: middle;
+}
+
+#admin_data_userID {
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+#admin_data_userID::before {
+    content: "#";
+}

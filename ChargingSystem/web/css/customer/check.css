@@ -144,11 +144,11 @@ main {
     float: left;
 }
 
-.chargeCost::before {
-    content: "Charge: ";
+.totalCost::before {
+    content: "Total: ";
 }
 
-.chargeCost::after {
+.totalCost::after {
     content: "$";
 }
 
@@ -160,11 +160,11 @@ main {
     content: "$";
 }
 
-.totalCost::before {
-    content: "Total: ";
+.chargeCost::before {
+    content: "Charge: ";
 }
 
-.totalCost::after {
+.chargeCost::after {
     content: "$";
 }
 

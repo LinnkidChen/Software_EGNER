@@ -79,7 +79,7 @@ main {
     vertical-align: middle;
 }
 
-.ID {
+.billID>span:nth-child(1) {
     width: 700px;
     height: 28px !important;
     overflow: hidden;
@@ -90,7 +90,7 @@ main {
     line-height: 28px !important;
 }
 
-.ID::before {
+.billID>span:nth-child(1)::before {
     content: "#";
 
     color: rgba(128, 128, 128, 0.8);

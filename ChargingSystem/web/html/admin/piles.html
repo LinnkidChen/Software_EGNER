@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piles Page</title>
+
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/admin/piles.css">
+
+</head>
+
+<body>
+    <main class="clearfix">
+        <ul id="admin_piles_nav" class="clearfix">
+            <li>
+                <a href="" class="funButton">piles</a>
+            </li>
+            <li>
+                <a href="" class="funButton">data</a>
+            </li>
+            <li>
+                <a href="" class="funButton">quit</a>
+            </li>
+        </ul>
+
+        <div id="admin_piles_pilesBlock" class="clearfix">
+            <ul>
+                <!--单个表项，包含用例-->
+                <li class="pileList clearfix">
+                    <p class="pileID clearfix">
+                        <!--在此填充充电桩ID-->
+                        <span>0123456789</span>
+                        <!--在此显示其中一个充电桩状态-->
+                        <span class="state_on"></span>
+                        <span class="state_close"></span>
+                    </p>
+                    <p class="pileInfo clearfix">
+                        <!--在此填充充电次数-->
+                        <span class="frequency">64</span>
+                        <br>
+                        <!--在此填充充电电量-->
+                        <span class="quantity">64</span>
+                        <br>
+                        <!--在此填充订单生成时间-->
+                        <span class="chargeTime">2.2</span>
+                    </p>
+                    <form action="" class="pileButton clearfix">
+                        <button class="pileDetial" type="button">&gt;</button>
+                        <button class="pileSwitch" type="button">&#8646;</button>
+                    </form>
+                </li>
+            </ul>
+        </div>
+
+        <aside class="clearfix">
+            <div id="admin_piles_userImage" class="clearfix">?</div>
+
+            <!--在此填充管理员ID-->
+            <span id="admin_piles_userID"></span>
+        </aside>
+    </main>
+</body>
+
+</html>

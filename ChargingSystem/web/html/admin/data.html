@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Page</title>
+
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/admin/data.css">
+
+</head>
+
+<body>
+    <main class="clearfix">
+        <ul id="admin_data_nav" class="clearfix">
+            <li>
+                <a href="" class="funButton">piles</a>
+            </li>
+            <li>
+                <a href="" class="funButton">data</a>
+            </li>
+            <li>
+                <a href="" class="funButton">quit</a>
+            </li>
+        </ul>
+
+        <div id="admin_data_dataBlock" class="clearfix">
+            <form action="" id="admin_data_dataType" class="clearfix">
+                <select name="dataType">
+                    <!--当用户处于排队/充电状态时，在placeholder中填充用户充电类型-->
+                    <option value="dataType_day" selected>Day</option>
+                    <option value="dataType_week">Week</option>
+                    <option value="dataType_month">Month</option>
+                </select>
+            </form>
+
+            <ul>
+                <!--单个表项，包含用例-->
+                <li class="pileList clearfix">
+                    <p class="pileID clearfix">
+                        <!--在此填充充电桩ID-->
+                        <span>0123456789</span>
+                    </p>
+                    <p class="pileInfo clearfix">
+                        <!--在此填充充电次数-->
+                        <span class="frequency">64</span>
+                        <br>
+                        <!--在此填充充电电量-->
+                        <span class="quantity">64</span>
+                        <br>
+                        <!--在此填充订充电时间-->
+                        <span class="chargeTime">2.2</span>
+                    </p>
+                    <p class="pileCost clearfix">
+                        <!--在此填充总费用-->
+                        <span class="totalCost">64</span>
+                        <br>
+                        <!--在此填充服务费用-->
+                        <span class="serveCost">64</span>
+                        <br>
+                        <!--在此填充充电费用-->
+                        <span class="chargeCost">64</span>
+                    </p>
+                </li>
+            </ul>
+
+            <div id="admin_data_statistics" class="clearfix">
+                <p class="pileInfo clearfix">
+                    <!--在此填充充累计电次数-->
+                    <span class="frequency">64</span>
+                    <br>
+                    <!--在此填充充累计电电量-->
+                    <span class="quantity">64</span>
+                    <br>
+                    <!--在此填充订累计充电时间-->
+                    <span class="chargeTime">2.2</span>
+                </p>
+                <p class="pileCost clearfix">
+                    <!--在此填充累计总费用-->
+                    <span class="totalCost">64</span>
+                    <br>
+                    <!--在此填充累计服务费用-->
+                    <span class="serveCost">64</span>
+                    <br>
+                    <!--在此填充累计充电费用-->
+                    <span class="chargeCost">64</span>
+                </p>
+            </div>
+        </div>
+
+        <aside class="clearfix">
+            <div id="admin_data_userImage" class="clearfix">?</div>
+
+            <!--在此填充管理员ID-->
+            <span id="admin_data_userID"></span>
+        </aside>
+    </main>
+</body>
+
+</html>

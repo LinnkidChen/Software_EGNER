@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PileList Page</title>
+
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/admin/pileList.css">
+
+</head>
+
+<body>
+    <main class="clearfix">
+        <ul id="admin_pileList_nav" class="clearfix">
+            <li>
+                <a href="" class="funButton">piles</a>
+            </li>
+            <li>
+                <a href="" class="funButton">data</a>
+            </li>
+            <li>
+                <a href="" class="funButton">quit</a>
+            </li>
+        </ul>
+
+        <div id="admin_pileList_carsBlock" class="clearfix">
+            <p id="admin_pileList_pileID" class="clearfix">
+                <!--在此填充充电桩ID-->
+                <span>0123456789</span>
+            </p>
+
+            <ul>
+                <!--单个表项，包含用例-->
+                <li class="carList clearfix">
+                    <p class="userID clearfix">
+                        <!--在此填充充电桩ID-->
+                        <span>0123456789</span>
+                    </p>
+                    <p class="carInfo clearfix">
+                        <!--在此填充请求充电量-->
+                        <span class="quantity">64</span>
+                        <br>
+                        <!--在此填充排队时长-->
+                        <span class="chargeTime">2.2</span>
+                        <br>
+                    </p>
+                </li>
+            </ul>
+        </div>
+
+        <aside class="clearfix">
+            <div id="admin_pileList_userImage" class="clearfix">?</div>
+
+            <!--在此填充管理员ID-->
+            <span id="admin_pileList_userID"></span>
+        </aside>
+    </main>
+</body>
+
+</html>

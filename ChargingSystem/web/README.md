@@ -7,12 +7,12 @@
 * web
     * css
         * pile
-        * admin
+        * ~~admin~~
         * ~~customer~~
         * ~~public~~
     * html
         * pile
-        * admin
+        * ~~admin~~
         * ~~customer~~
         * ~~public~~
     * javascript
